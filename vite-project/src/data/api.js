@@ -11,4 +11,4 @@ export async function api(path, options = {}) {
   }
 
   return response.json();
-}q
+}
