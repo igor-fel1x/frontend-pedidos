@@ -1,0 +1,38 @@
+:root {
+    --color-primary: #1c7a4a;
+    --color-text: #1b2a22;
+    --color-muted: #6b7a72;
+    --color-border: #dfe8e1;
+    --color-surface: #ffffff;
+    --color-bg: #f4f8f3;
+
+    --radius: 12px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', system-ui, sans-serif;
+    color: var(--color-text);
+    background: var(--color-bg);
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+}
+
+input {
+    font: inherit;
+}
